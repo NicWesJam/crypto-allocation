@@ -164,7 +164,7 @@ def csv_list(string):
 
 def get_args():
 	'''
-	setup parser and store argparser in self.args
+	setup parser, parse args and return parsed args
 	'''
 	parser = argparse.ArgumentParser(description='Calculate Cryptocurrency portfolio allocation')
 	parser.add_argument('--number', type=int, help='number of crypto currencies you want', dest='currencies', required=True)
